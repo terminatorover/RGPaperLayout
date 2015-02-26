@@ -15,6 +15,7 @@
 		A17075301A9EC8410097EC5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A170752E1A9EC8410097EC5F /* LaunchScreen.xib */; };
 		A170753C1A9EC8410097EC5F /* RGPaperLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A170753B1A9EC8410097EC5F /* RGPaperLayoutTests.m */; };
 		A17075471A9EC8B20097EC5F /* RGPaperLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A17075461A9EC8B20097EC5F /* RGPaperLayout.m */; };
+		A170754A1A9ECA040097EC5F /* RGCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A17075491A9ECA040097EC5F /* RGCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		A170753B1A9EC8410097EC5F /* RGPaperLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGPaperLayoutTests.m; sourceTree = "<group>"; };
 		A17075451A9EC8B20097EC5F /* RGPaperLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGPaperLayout.h; sourceTree = "<group>"; };
 		A17075461A9EC8B20097EC5F /* RGPaperLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGPaperLayout.m; sourceTree = "<group>"; };
+		A17075481A9ECA040097EC5F /* RGCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGCollectionViewCell.h; sourceTree = "<group>"; };
+		A17075491A9ECA040097EC5F /* RGCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				A17075261A9EC8410097EC5F /* ViewController.h */,
 				A17075271A9EC8410097EC5F /* ViewController.m */,
 				A17075291A9EC8410097EC5F /* Main.storyboard */,
+				A17075481A9ECA040097EC5F /* RGCollectionViewCell.h */,
+				A17075491A9ECA040097EC5F /* RGCollectionViewCell.m */,
 				A170752C1A9EC8410097EC5F /* Images.xcassets */,
 				A170752E1A9EC8410097EC5F /* LaunchScreen.xib */,
 				A170751F1A9EC8410097EC5F /* Supporting Files */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A170754A1A9ECA040097EC5F /* RGCollectionViewCell.m in Sources */,
 				A17075281A9EC8410097EC5F /* ViewController.m in Sources */,
 				A17075471A9EC8B20097EC5F /* RGPaperLayout.m in Sources */,
 				A17075251A9EC8410097EC5F /* AppDelegate.m in Sources */,

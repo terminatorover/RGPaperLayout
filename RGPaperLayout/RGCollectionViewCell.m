@@ -12,5 +12,7 @@
 - (void)awakeFromNib
 {
     self.imageView.contentMode = UIViewContentModeScaleAspectFill;
+    self.layer.cornerRadius = 10;
+
 }
 @end

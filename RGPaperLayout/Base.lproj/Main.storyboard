@@ -22,14 +22,9 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="BOu-gV-Ppt"/>
                                 </constraints>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="6FV-3T-3Bd" customClass="RGPaperLayout">
-                                    <size key="itemSize" width="50" height="50"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
+                                <collectionViewLayout key="collectionViewLayout" id="9Tn-dm-91m" customClass="RGPaperLayout"/>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ZrA-in-EmW" customClass="RGCollectionViewCell">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="reuse" id="ZrA-in-EmW" customClass="RGCollectionViewCell">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -39,31 +34,62 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Iq9-6W-Oiu">
                                                     <rect key="frame" x="0.0" y="0.0" width="293" height="252"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOG-OF-6xG">
-                                                    <rect key="frame" x="125" y="39" width="42" height="20"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOG-OF-6xG">
+                                                    <rect key="frame" x="97" y="18" width="100" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="100" id="1iJ-YD-Nnt"/>
+                                                        <constraint firstAttribute="width" constant="100" id="opt-B5-TNb"/>
+                                                        <constraint firstAttribute="width" constant="100" id="u5w-LR-p0y"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="1iJ-YD-Nnt"/>
+                                                            <exclude reference="u5w-LR-p0y"/>
+                                                        </mask>
+                                                    </variation>
                                                 </label>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <constraints>
+                                            <constraint firstItem="zOG-OF-6xG" firstAttribute="leading" secondItem="ZrA-in-EmW" secondAttribute="leadingMargin" constant="8" id="3gC-C2-4At"/>
                                             <constraint firstItem="zOG-OF-6xG" firstAttribute="leading" secondItem="ZrA-in-EmW" secondAttribute="leadingMargin" constant="117" id="7jS-Yb-Sfg"/>
+                                            <constraint firstAttribute="centerX" secondItem="zOG-OF-6xG" secondAttribute="centerX" id="M7l-Ac-B1V"/>
                                             <constraint firstAttribute="bottomMargin" secondItem="Iq9-6W-Oiu" secondAttribute="bottom" constant="-8" id="Oaw-dt-QOp"/>
+                                            <constraint firstAttribute="centerY" secondItem="zOG-OF-6xG" secondAttribute="centerY" id="SG0-ul-VWV"/>
                                             <constraint firstItem="Iq9-6W-Oiu" firstAttribute="top" secondItem="ZrA-in-EmW" secondAttribute="topMargin" constant="-8" id="Ycu-Pg-SZe"/>
                                             <constraint firstAttribute="trailingMargin" secondItem="Iq9-6W-Oiu" secondAttribute="trailing" constant="-8" id="eLe-JM-y4H"/>
-                                            <constraint firstItem="zOG-OF-6xG" firstAttribute="top" secondItem="ZrA-in-EmW" secondAttribute="topMargin" constant="31" id="iJ0-6k-haO"/>
+                                            <constraint firstItem="zOG-OF-6xG" firstAttribute="top" secondItem="ZrA-in-EmW" secondAttribute="topMargin" constant="10" id="fGR-zC-kAd"/>
+                                            <constraint firstItem="zOG-OF-6xG" firstAttribute="top" secondItem="ZrA-in-EmW" secondAttribute="topMargin" constant="10" id="iJ0-6k-haO"/>
                                             <constraint firstAttribute="trailingMargin" secondItem="zOG-OF-6xG" secondAttribute="trailing" constant="118" id="jW0-CD-hQO"/>
                                             <constraint firstItem="Iq9-6W-Oiu" firstAttribute="leading" secondItem="ZrA-in-EmW" secondAttribute="leadingMargin" constant="-8" id="qh3-OV-izR"/>
+                                            <constraint firstItem="zOG-OF-6xG" firstAttribute="top" secondItem="ZrA-in-EmW" secondAttribute="topMargin" constant="34" id="tZJ-wT-aFI"/>
+                                            <constraint firstAttribute="centerX" secondItem="zOG-OF-6xG" secondAttribute="centerX" id="uXS-mY-bt8"/>
                                         </constraints>
                                         <size key="customSize" width="293" height="252"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="3gC-C2-4At"/>
+                                                <exclude reference="7jS-Yb-Sfg"/>
+                                                <exclude reference="SG0-ul-VWV"/>
+                                                <exclude reference="iJ0-6k-haO"/>
+                                                <exclude reference="jW0-CD-hQO"/>
+                                                <exclude reference="tZJ-wT-aFI"/>
+                                                <exclude reference="uXS-mY-bt8"/>
+                                            </mask>
+                                        </variation>
                                         <connections>
                                             <outlet property="imageView" destination="Iq9-6W-Oiu" id="aZ4-4s-mv3"/>
                                             <outlet property="label" destination="zOG-OF-6xG" id="AFV-zM-JlF"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="Nhw-sW-FtM"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -73,10 +99,13 @@
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="vfQ-ij-uwv" secondAttribute="bottom" id="tlW-cK-npl"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="vfQ-ij-uwv" id="zp2-TB-ooD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9" y="431"/>
+            <point key="canvasLocation" x="-10" y="388"/>
         </scene>
     </scenes>
 </document>
