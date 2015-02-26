@@ -14,6 +14,7 @@
 		A170752D1A9EC8410097EC5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A170752C1A9EC8410097EC5F /* Images.xcassets */; };
 		A17075301A9EC8410097EC5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A170752E1A9EC8410097EC5F /* LaunchScreen.xib */; };
 		A170753C1A9EC8410097EC5F /* RGPaperLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A170753B1A9EC8410097EC5F /* RGPaperLayoutTests.m */; };
+		A17075471A9EC8B20097EC5F /* RGPaperLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A17075461A9EC8B20097EC5F /* RGPaperLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A17075351A9EC8410097EC5F /* RGPaperLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGPaperLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A170753A1A9EC8410097EC5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A170753B1A9EC8410097EC5F /* RGPaperLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGPaperLayoutTests.m; sourceTree = "<group>"; };
+		A17075451A9EC8B20097EC5F /* RGPaperLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGPaperLayout.h; sourceTree = "<group>"; };
+		A17075461A9EC8B20097EC5F /* RGPaperLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGPaperLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		A17075131A9EC8410097EC5F = {
 			isa = PBXGroup;
 			children = (
+				A17075451A9EC8B20097EC5F /* RGPaperLayout.h */,
+				A17075461A9EC8B20097EC5F /* RGPaperLayout.m */,
 				A170751E1A9EC8410097EC5F /* RGPaperLayout */,
 				A17075381A9EC8410097EC5F /* RGPaperLayoutTests */,
 				A170751D1A9EC8410097EC5F /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A17075281A9EC8410097EC5F /* ViewController.m in Sources */,
+				A17075471A9EC8B20097EC5F /* RGPaperLayout.m in Sources */,
 				A17075251A9EC8410097EC5F /* AppDelegate.m in Sources */,
 				A17075221A9EC8410097EC5F /* main.m in Sources */,
 			);
