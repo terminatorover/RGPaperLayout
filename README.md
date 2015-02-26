@@ -1,5 +1,6 @@
 # RGPaperLayout
 This is a layout that clones the interaction of going through sections when editing your sections in Facebook's paper app
+[Watch it in action here](https://www.youtube.com/watch?v=D-8Tebjbdbw)
 
 
 To use this simply drop it in as a class in the storyboard or nib when you create your collection view. or you can 
