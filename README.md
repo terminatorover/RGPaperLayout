@@ -1,5 +1,8 @@
 # RGPaperLayout
 This is a layout that clones the interaction of going through sections when editing your sections in Facebook's paper app
+
+![g](https://github.com/terminatorover/RGPaperLayout/blob/master/sim.png)
+
 [Watch it in action here](https://www.youtube.com/watch?v=D-8Tebjbdbw)
 
 
