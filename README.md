@@ -3,7 +3,7 @@ This is a layout that clones the interaction of going through sections when edit
 
 ![g](https://github.com/terminatorover/RGPaperLayout/blob/master/sim.png)
 
-[Watch it in action here](https://www.youtube.com/watch?v=D-8Tebjbdbw)
+[Watch it in action here](https://www.youtube.com/watch?v=X10hdbakG2E&feature=youtu.be)
 
 
 To use this simply drop it in as a class in the storyboard or nib when you create your collection view. or you can 
